@@ -96,7 +96,7 @@ p {
     border-top-width: 8px;
     border-top-style: solid;
     font-size: 11px;
-    width: 100%;
+    min-width: 100%;
   }
 
 /* Contact Form */

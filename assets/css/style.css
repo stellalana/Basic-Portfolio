@@ -29,6 +29,7 @@
     border-bottom-width: 1px;
     border-top-width: 0;
     background: #ffffff;
+    white-space: nowrap;
   }
 
 /* Headers, Fonts, and Body */

@@ -145,3 +145,51 @@ img {
     width: 62%;
     padding: 5px 30px;
 }
+
+/* Portfolio Boxes */
+
+.box-set {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: auto;
+    position: relative;
+    height: 960px;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: auto;
+    background: #ffffff;
+    color: #777777;
+}
+.box {
+    width: 250px;
+    height: 200px;
+    background: #2db34a;
+    border: 2px solid black;
+    position: absolute;
+  }
+  
+  .box-1 {
+    top: 15%;
+    left: 5%;
+  }
+  
+  .box-2 {
+    top: 15%;
+    right: 25%
+  }
+  
+  .box-3 {
+    top: 40%;
+    left: 5%;
+  }
+  
+  .box-4 {
+    top: 40%;
+    right: 25%
+  }
+
+  .box-5 {
+    top: 65%;
+    left: 5%;
+  }
+  

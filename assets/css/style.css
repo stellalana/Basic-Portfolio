@@ -5,6 +5,10 @@
   zoom: 1.0 ;
 }
 
+@media only {
+  width: device-width ;
+
+}
 /* Top Bar */
 
 .topnav {

@@ -1,0 +1,67 @@
+/* Top Bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+  }
+  
+.topnav a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-right: 50%;
+  }
+
+.topnavsection {
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    background: #ffffff;
+  }
+
+/* Headers, Fonts, and Body */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+body {
+    background-image: url("/Users/tegantell/Desktop/Bootcamp/Homework/HW1/Basic-Portfolio/assets/images/concrete_seamless.png");
+    margin: 0;
+    padding: 0;
+}
+
+/* Content */
+
+.wrapper {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  #relative {
+    position: relative;
+    height: 600px;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: auto;
+    background: #ffffff;
+  }

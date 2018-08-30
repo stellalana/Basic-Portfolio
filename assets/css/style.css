@@ -5,6 +5,7 @@
     background-color: #ffffff;
     width: 960px;
     margin: auto;
+    max-height: 80px;
   }
   
 .topnav a {
@@ -14,6 +15,7 @@
     padding: 25px;
     text-decoration: none;
     font-size: 20px;
+    max-height: 80px;
   }
   
 #name {
@@ -30,6 +32,7 @@
     border-top-width: 0;
     background: #ffffff;
     white-space: nowrap;
+    max-height: 80px;
   }
 
 /* Headers, Fonts, and Body */

@@ -11,7 +11,7 @@
     float: left;
     color: #777777;
     text-align: center;
-    padding: 8px 14px;
+    padding: 25px;
     text-decoration: none;
     font-size: 20px;
   }
@@ -19,12 +19,13 @@
 #name {
     background-color: #4aaaa5;
     color: white;
-    margin-right: 50%;
+    margin-right: 47%;
+    padding: 15px;
   }
 
 .topnavsection {
     border-bottom-style: solid;
-    border-color: #dddddd;
+    border-color: #cccccc;
     border-bottom-width: 1px;
     border-top-width: 0;
     background: #ffffff;
@@ -44,9 +45,11 @@ h2 {
 }
 
 body {
-    background-image: url("/Users/tegantell/Desktop/Bootcamp/Homework/HW1/Basic-Portfolio/assets/images/concrete_seamless.png");
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/concrete_seamless.png");
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Content */
@@ -57,11 +60,66 @@ body {
     margin: 0 auto;
   }
 
-  #relative {
+
+
+  html, body {
+    height: 100%;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 0;
+    background-color: #666666;
+    color: #b9b9b9;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    border-top-style: solid;
+    font-size: 11px;
+  }
+
+/* Contact Form */
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4aaaa598;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: auto;
     position: relative;
-    height: 600px;
+    height: 525px;
     width: 960px;
     padding: 20px;
     margin-bottom: auto;
     background: #ffffff;
-  }
+}

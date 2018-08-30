@@ -52,6 +52,10 @@ body {
     flex-direction: column;
 }
 
+p {
+    color: #777777;
+}
+
 /* Content */
 
 .wrapper {
@@ -123,4 +127,21 @@ input[type=submit]:hover {
     margin-bottom: auto;
     background: #ffffff;
     color: #777777;
+}
+
+/* Image */
+
+img {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    width: auto;
+}
+
+/* About Section */
+
+#about {
+    float: left;
+    width: 62%;
+    padding: 5px 30px;
 }

@@ -61,6 +61,8 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    width: device-width;
+    zoom: 1;
 }
 
 p {
@@ -73,7 +75,6 @@ p {
     width: 960px;
     padding: 20px;
     margin: 0 auto;
-    width: device-width ;
   }
 
 
